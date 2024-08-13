@@ -2,7 +2,7 @@
     "name": "Projectile",
     "description": "shoot 5 arrows at high speeds",
     "type": "origins:multipe",
-    "projctile resistance": {
+    "key5": {
         "type": "origins:invulnerability",
         "damage_condition": {
             "type": "origins:projectile",

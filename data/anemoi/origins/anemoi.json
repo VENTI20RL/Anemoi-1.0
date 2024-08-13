@@ -8,7 +8,8 @@
         "anemoi:disadvantages",
         "anemoi:transparency",
         "anemoi:attack",
-        "anemoi:projectile"
+        "anemoi:projectile",
+        "anemoi:nobow"
     ],
     "icon": {
         "item": "glass_bottle",
