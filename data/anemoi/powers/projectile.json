@@ -24,7 +24,7 @@
     "key7": {
         "type": "origins:fire_projectile",
         "entity_type": "minecraft:arrow",
-        "cooldown": 1,
+        "cooldown": 100,
         "count": 5,
         "interval": 1,
         "start_delay": 0,
