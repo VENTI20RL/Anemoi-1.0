@@ -7,7 +7,8 @@
         "anemoi:buoyant",
         "anemoi:disadvantages",
         "anemoi:transparency",
-        "anemoi:attack"
+        "anemoi:attack",
+        "anemoi:projectile"
     ],
     "icon": {
         "item": "glass_bottle",

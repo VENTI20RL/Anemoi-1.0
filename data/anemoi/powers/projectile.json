@@ -1,0 +1,40 @@
+{
+    "name": "Projectile",
+    "description": "shoot 5 arrows at high speeds",
+    "type": "origins:multipe",
+    "key5": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        }
+    },
+    "key6": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 15,
+            "name": "gilded arrow"
+        }
+    },
+    "key7": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:arrow",
+        "cooldown": 1,
+        "count": 5,
+        "interval": 1,
+        "start_delay": 0,
+        "speed": 20,
+        "divergence": 0,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "key8": {
+        "type": "origins:simple"
+    }
+}
