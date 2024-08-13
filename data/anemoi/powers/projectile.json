@@ -2,7 +2,7 @@
     "name": "Projectile",
     "description": "shoot 5 arrows at high speeds",
     "type": "origins:multipe",
-    "key5": {
+    "projctile resistance": {
         "type": "origins:invulnerability",
         "damage_condition": {
             "type": "origins:projectile",
@@ -17,8 +17,7 @@
         },
         "modifier": {
             "operation": "addition",
-            "value": 15,
-            "name": "gilded arrow"
+            "value": 15
         }
     },
     "key7": {
@@ -33,8 +32,5 @@
         "key": {
             "key": "key.origins.secondary_active"
         }
-    },
-    "key8": {
-        "type": "origins:simple"
     }
 }

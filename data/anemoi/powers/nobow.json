@@ -1,0 +1,30 @@
+{
+    "name": "NoBowHobo",
+    "description": "You cannot use string projectile weaponry",
+    "badges": [
+        {
+            "type": "origins:tooltip"
+        }
+    ],
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:bow"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:crossbow"
+                    }
+                }
+            ]
+        }
+    }
+}
