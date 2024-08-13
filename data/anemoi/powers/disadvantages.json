@@ -24,7 +24,7 @@
             },
             "radius": 15,
             "shape": "sphere",
-            "comparison": "<=",
+            "comparison": ">=",
             "compare_to": 1
         },
         "type": "origins:disable_regen"
