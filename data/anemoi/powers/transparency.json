@@ -1,0 +1,6 @@
+{
+    "name": "Transparent",
+    "description": "Makes you look ghostly",
+    "type": "origins:model_color",
+    "alpha": 0.75
+}

@@ -1,0 +1,60 @@
+{
+    "name": "disadvantages",
+    "description": "disadvantages",
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:fire"
+        },
+        "entity_action": {
+            "type": "origins:explode",
+            "power": 0.5,
+            "destruction_type": "none",
+            "damage_self": true
+        },
+        "cooldown": 20
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:block_in_radius",
+            "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:magma_block"
+            },
+            "radius": 15,
+            "shape": "sphere",
+            "comparison": "<=",
+            "compare_to": 1
+        },
+        "type": "origins:disable_regen"
+    },
+    "key2": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:dimension",
+                "dimension": "the_nether"
+            }
+        },
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 5
+        }
+    },
+    "key3": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:unblockable"
+        },
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 5
+        }
+    },
+    "key5": {
+        "type": "origins:modify_falling",
+        "take_fall_damage": false
+    }
+}

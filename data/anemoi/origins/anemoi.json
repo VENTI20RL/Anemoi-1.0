@@ -1,0 +1,19 @@
+{
+    "name": "Anemoi",
+    "description": "Adds The Anemoi  Origin Based Around The Greek word Ἄνεμοι this means winds, but the word Anemoi means the gods of the for winds. The for winds are Boreas (North), Zephyrus (West), Notus (South) and Eurus (East)",
+    "powers": [
+        "anemoi:bullet_jump",
+        "anemoi:wind_ride",
+        "anemoi:buoyant",
+        "anemoi:disadvantages",
+        "anemoi:transparency",
+        "anemoi:attack"
+    ],
+    "icon": {
+        "item": "glass_bottle",
+        "amount": 1
+    },
+    "order": 10,
+    "impact": 3,
+    "loading_priority": 10
+}

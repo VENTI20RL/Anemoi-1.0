@@ -1,0 +1,34 @@
+{
+    "name": "Bullet Jump[Primary]",
+    "description": "By pressing your primary key you can Bullet Jump",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:sonic_boom ~ ~1 ~ 0 0 0 0 1 normal",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "item.trident.riptide_3",
+                "volume": 0.1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:add_velocity",
+                "z": 1,
+                "space": "local",
+                "client": true,
+                "server": true
+                
+            }
+        ]
+    },
+    "cooldown": 0,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}
