@@ -1,7 +1,7 @@
 {
     "name": "Buoyant",
     "description": "can't swim and cant use elytras",
-    "type": "origins:multipe",
+    "type": "origins:multiple",
     "key3": {
         "type": "origins:self_action_when_hit",
         "damage_condition": {
@@ -41,6 +41,40 @@
     "key4_": {
         "type": "origins:effect_immunity",
         "effect": "invisibility"
+    },
+    "key5": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        }
+    },
+    "key6": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 15,
+            "name": "gilded arrow"
+        }
+    },
+    "key7": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:arrow",
+        "cooldown": 1,
+        "count": 5,
+        "interval": 1,
+        "start_delay": 0,
+        "speed": 20,
+        "divergence": 0,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "key8": {
+        "type": "origins:simple"
     }
 }
-    
